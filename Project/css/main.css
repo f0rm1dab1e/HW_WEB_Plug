@@ -1,0 +1,164 @@
+body {
+    background: transparent url('../img/Mask Group 43.png') 0 0 no-repeat padding-box;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    background-size: 50%;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.block-left {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.block-right {
+    width: 50%;
+    align-items: center;
+    margin-top: 64px;
+}
+
+h1 {
+    position: absolute;
+    color: #FFFFFF;
+    text-align: left;
+    font-variant: normal;
+    margin-top: 90px;
+    font: 50px/61px Helvetica Neue;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.main_content > h3 {
+    position: absolute;
+    margin-top: 264px;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.main_content > p {
+    position: absolute;
+    margin-top: 322px;
+    opacity: 0.8;
+    color: #FFFFFF;
+    font-size: 80%;
+}
+
+h1::first-letter {
+    color: #E2222D;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid #DBDFEB;
+    margin-bottom: 40px;
+    width: 442px;
+    height: 50px
+}
+
+
+div > h2 {
+    color: #8D8DA5;
+    font-size: 36px;
+}
+
+.form-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SignUpBtn {
+    width: 164px;
+    height: 50px;
+    background: #E2222D;
+    color: #FFFFFF;
+    border: 1px solid #DBDFEB;
+    border-radius: 8px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.SignIn {
+    margin-top: 20px;
+}
+
+.SignIn a {
+    color: #181C32;
+}
+
+@media (min-width: 1200px ) {
+    body {
+        width: 100%;
+    }
+
+    .content {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 1100px ) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .content {
+        width: 100%;
+        font-size: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px ) {
+    body {
+        width: 100%;
+        background-size: 50%;
+    }
+
+    .content {
+        width: 100%;
+        font-size: 75%;
+        margin: 0 auto;
+    }
+
+    .block-right {
+        margin-top: 0;
+
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px ) {
+    body {
+        background-size: 100%;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .block-right {
+        padding-top: 850px;
+    }
+}
+
